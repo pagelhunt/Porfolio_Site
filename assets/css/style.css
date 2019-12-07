@@ -1,7 +1,9 @@
 body
 {
+    background-image: url("../images/herringbone.png");
+    background-repeat: repeat;
     background-color: #ffffff;
-    border: 960px;
+    
 }
 
 footer
@@ -12,15 +14,31 @@ footer
     position: sticky;
 }
 
+header
+{
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+h1.topHeader
+{
+  background-color: #4aaaa5;
+  width: 150px;
+  padding: 3%;
+  top: 0;
+  float: left;
+  color: #ffffff;
+}
+
+.mainContent
+{
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
 
 .column {
     float: left;
     width: 50%;
-  }
-  
-  .backgroundImage
-  {
-    background-image: image("assets/images/herringbone.png");
   }
 
   .row:after {
@@ -31,11 +49,14 @@ footer
 
   li.navHyper{
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
     list-style: none;
     margin: 2%;
     float: right;
   }
-  h1{
+  
+  h1.mainContent{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
   }
 

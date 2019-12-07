@@ -1,0 +1,41 @@
+body
+{
+    background-color: #ffffff;
+    border: 960px;
+}
+
+footer
+{
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background-color: darkgray;
+    position: sticky;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .backgroundImage
+  {
+    background-image: image("assets/images/herringbone.png");
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  li.navHyper{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin: 2%;
+    float: right;
+  }
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+

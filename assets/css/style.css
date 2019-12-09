@@ -3,7 +3,7 @@ body
     background-image: url("../images/herringbone.png");
     background-repeat: repeat;
     background-color: #ffffff;
-    
+
 }
 
 footer
@@ -11,7 +11,10 @@ footer
     border-top: 8px solid #4aaaa5;
     text-align: center;
     background-color: darkgray;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 header
@@ -59,4 +62,12 @@ h1.topHeader
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
   }
+
+  img.mainContent{
+    float: left;
+  }
+  p.mainContent{
+    float: left;
+  }
+
 
